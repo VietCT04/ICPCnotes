@@ -13,6 +13,7 @@ Reusable competitive-programming notes and templates.
 - [FFT convolution](templates/fft_convolution.cpp)
 - [Fibonacci lazy segment tree](templates/fibonacci_lazy_segment_tree.cpp)
 - [Kuhn bipartite matching](templates/kuhn_matching.cpp)
+- [Hopcroft-Karp bipartite matching](templates/hopcroft_karp.cpp)
 - [DSU / Union-Find](templates/dsu.cpp)
 - [Fenwick tree](templates/fenwick.cpp)
 - [Segment tree storing the K smallest candidates](templates/smallest_k_segment_tree.cpp)
