@@ -6,6 +6,7 @@ Reusable competitive-programming notes and templates.
 
 - [Advanced reusable patterns](notes/advanced-patterns.md) — segment-tree state compression, digit DP, coordinate compression, DSU/Kruskal modeling, matching/Kőnig, reverse processing, k-core peeling, FFT, min-cut modeling, and more.
 - [Min-cut modeling cheat sheet](notes/mincut-modeling.md) — how to interpret every directed edge, hard vs soft dependencies, maximum-weight closure, and binary-state cuts.
+- [SOS DP / Zeta Transform](notes/sos-dp.md) — what `f[mask]` means, subset and superset transforms, invariants, examples, recognition patterns, and complexity.
 
 ## Templates
 
@@ -17,6 +18,7 @@ Reusable competitive-programming notes and templates.
 - [DSU / Union-Find](templates/dsu.cpp)
 - [Fenwick tree](templates/fenwick.cpp)
 - [Segment tree storing the K smallest candidates](templates/smallest_k_segment_tree.cpp)
+- [SOS DP subset / superset transforms](templates/sos_dp.cpp)
 
 Each template includes complexity notes and comments about the modeling pattern it is intended for.
 
