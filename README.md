@@ -7,6 +7,8 @@ Reusable competitive-programming notes and templates.
 - [Advanced reusable patterns](notes/advanced-patterns.md) — segment-tree state compression, digit DP, coordinate compression, DSU/Kruskal modeling, matching/Kőnig, reverse processing, k-core peeling, FFT, min-cut modeling, and more.
 - [Min-cut modeling cheat sheet](notes/mincut-modeling.md) — how to interpret every directed edge, hard vs soft dependencies, maximum-weight closure, and binary-state cuts.
 - [SOS DP / Zeta Transform](notes/sos-dp.md) — what `f[mask]` means, subset and superset transforms, invariants, examples, recognition patterns, and complexity.
+- [Divide & Conquer DP Optimization](notes/divide-conquer-dp.md) — monotone opt, Monge/quadrangle inequality proofs, recursion bounds, and movable-window costs for CF 868F.
+- [XOR Linear Basis](notes/xor-linear-basis.md) — GF(2) elimination, maximum subset XOR, representability, and indexed bases for range queries such as CF 1100F.
 
 ## Templates
 
@@ -19,6 +21,9 @@ Reusable competitive-programming notes and templates.
 - [Fenwick tree](templates/fenwick.cpp)
 - [Segment tree storing the K smallest candidates](templates/smallest_k_segment_tree.cpp)
 - [SOS DP subset / superset transforms](templates/sos_dp.cpp)
+- [Divide & Conquer DP Optimization](templates/divide_conquer_dp.cpp)
+- [D&C DP + equal-pairs movable window](templates/dnc_dp_equal_pairs_window.cpp)
+- [XOR Linear Basis + indexed range variant](templates/xor_linear_basis.cpp)
 
 Each template includes complexity notes and comments about the modeling pattern it is intended for.
 
@@ -41,3 +46,5 @@ Each template includes complexity notes and comments about the modeling pattern 
 - CF 1082G — Petya and Graph
 - CF 2026E — Best Subsequence
 - CF 311E — Biologist
+- CF 868F — Yet Another Minimization Problem
+- CF 1100F — Ivan and Burgers
