@@ -9,6 +9,7 @@ Reusable competitive-programming notes and templates.
 - [SOS DP / Zeta Transform](notes/sos-dp.md) — what `f[mask]` means, subset and superset transforms, invariants, examples, recognition patterns, and complexity.
 - [Divide & Conquer DP Optimization](notes/divide-conquer-dp.md) — monotone opt, Monge/quadrangle inequality proofs, recursion bounds, and movable-window costs for CF 868F.
 - [XOR Linear Basis](notes/xor-linear-basis.md) — GF(2) elimination, maximum subset XOR, representability, and indexed bases for range queries such as CF 1100F.
+- [Persistent Segment Tree](notes/persistent-segment-tree.md) — prefix versions, path copying, node contents, range-frequency subtraction, and heavy-frequency pruning for CF 840D.
 
 ## Templates
 
@@ -24,6 +25,7 @@ Reusable competitive-programming notes and templates.
 - [Divide & Conquer DP Optimization](templates/divide_conquer_dp.cpp)
 - [D&C DP + equal-pairs movable window](templates/dnc_dp_equal_pairs_window.cpp)
 - [XOR Linear Basis + indexed range variant](templates/xor_linear_basis.cpp)
+- [Persistent Segment Tree](templates/persistent_segment_tree.cpp)
 
 Each template includes complexity notes and comments about the modeling pattern it is intended for.
 
@@ -48,3 +50,4 @@ Each template includes complexity notes and comments about the modeling pattern 
 - CF 311E — Biologist
 - CF 868F — Yet Another Minimization Problem
 - CF 1100F — Ivan and Burgers
+- CF 840D — Destiny
