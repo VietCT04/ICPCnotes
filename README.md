@@ -14,6 +14,7 @@ Reusable competitive-programming notes and templates.
 ## Templates
 
 - [Dinic max-flow / min-cut](templates/dinic.cpp)
+- [Min-Cost Max-Flow — Dijkstra + potentials](templates/min_cost_max_flow.cpp)
 - [FFT convolution](templates/fft_convolution.cpp)
 - [Fibonacci lazy segment tree](templates/fibonacci_lazy_segment_tree.cpp)
 - [Kuhn bipartite matching](templates/kuhn_matching.cpp)
